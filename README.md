@@ -1,3 +1,27 @@
+## Plotting assignment for "Exploratory Data Analysis" (Course Project 1)
+
+The four R scripts in this project each produce plots that duplicate
+the examples given in the assignment instructions (below).
+
+To run plot1.R plot2.R, plot3.R, and plot4.R, each file must be imported
+into R using the source() function (e.g. source("plot1.R")).
+Each file will yield a function of the same name:
+e.g. plot1(file_path = "../household_power_consumption.txt")
+As can be seen in the call, the file path of the data used defaults to
+the parent directory of the project, but this can be changed if required.
+
+One further note is that the first part of each function is the same,
+comprising code that loads the required data. As this is not particularly
+efficient code, it could easily take a minute or more to load each function,
+and a better implementation would at least check to see if the data was
+already loaded before attempting to load the code again. However, as the
+purpose of this assignment focuses on the plots produced, I have left this
+untouched.
+
+Finally, the PNG files produced can be found alongside each script,
+with the same file name.
+
+
 ## Introduction
 
 This assignment uses data from
