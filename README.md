@@ -4,9 +4,10 @@ The four R scripts in this project each produce plots that duplicate
 the examples given in the assignment instructions (below).
 
 To run plot1.R plot2.R, plot3.R, and plot4.R, each file must be imported
-into R using the source() function (e.g. source("plot1.R")).
+into R using the `source()` function (e.g. `source("plot1.R")`).
 Each file will yield a function of the same name:
-e.g. plot1(file_path = "../household_power_consumption.txt")
+e.g.
+`plot1(file_path = "../household_power_consumption.txt")`
 As can be seen in the call, the file path of the data used defaults to
 the parent directory of the project, but this can be changed if required.
 
